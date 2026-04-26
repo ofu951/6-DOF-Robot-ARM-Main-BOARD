@@ -31,7 +31,7 @@ This project features a custom-designed, industrial-grade control board specific
 ## 📷 Gallery
 | Top Side | Bottom Side |
 | :---: | :---: |
-| ![Top View](https://your-image-link-here.com/top.png) | ![Bottom View](https://your-image-link-here.com/bottom.png) |
+| ![Top View](top.png) | ![Bottom View](bottom.png) |
 
 ## 🔒 Project Status
 **Note:** This is a proprietary project. The hardware schematics and firmware source code are **not open-source**. This repository serves as a portfolio showcase to demonstrate engineering capabilities in embedded systems, PCB layout, and robotics control.
