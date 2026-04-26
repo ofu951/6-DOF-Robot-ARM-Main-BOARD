@@ -5,21 +5,21 @@ This project features a custom-designed, industrial-grade control board specific
 ## 🚀 Key Features
 
 ### 🔌 Connectivity & Communication
-* **Ethernet (10/100 Mbps):** Integrated **DP83848** PHY for high-speed industrial networking and remote control.
+* **Ethernet (10/100 Mbps):** Integrated PHY for high-speed industrial networking and remote control.
 * **CAN-Bus:** Reliable inter-module communication with dedicated ESD protection for harsh environments.
 * **RS232 Interface:** Standard serial communication for legacy systems and debugging.
 * **I2C Bus:** Multi-device sensor support with dedicated pull-up infrastructure.
 
 ### ⚙️ Motion Control
-* **6-Axis Independent Driving:** Equipped with **6x DRV8874** H-Bridge motor drivers, supporting up to 28V and high-current peaks.
-* **Real-time Feedback:** Advanced infrastructure for **AS5600 magnetic encoders** or Hall sensors, enabling closed-loop control and precise positioning.
+* **6-Axis Independent Driving:** Equipped with H-Bridge motor drivers, supporting up to 28V and high-current peaks.
+* **Real-time Feedback:** Advanced infrastructure for Magnetic encoders or Hall sensors, enabling closed-loop control and precise positioning.
 * **Current Sensing:** Individual current feedback (IPROPI) for each axis to monitor load and prevent stall conditions.
 * **Fault Diagnostics:** Separate hardware fault reporting for each driver to ensure system safety.
 
 ### 🛡️ Hardware Design & Protection
 * **4-Layer PCB Architecture:** Optimized stackup with dedicated Power and Ground planes to minimize EMI/EMC noise.
 * **ESD & Surge Protection:** TVS diode arrays on all communication lines (Ethernet, CAN, RS232) and power inputs.
-* **Advanced Power Management:** High-efficiency DC-DC buck regulation (MP1584) combined with low-noise LDOs for stable logic supply.
+* **Advanced Power Management:** High-efficiency DC-DC buck regulation combined with low-noise LDOs for stable logic supply.
 
 ## 🛠 Tech Stack
 * **Microcontroller:** STM32F407ZGT6 (168 MHz)
